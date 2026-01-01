@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>QuickTaste — Recipes</title>
+  <link rel="stylesheet" href="recipes.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo"></div>
+    <button class="menu-btn">Home</button>
+    <button class="menu-btn active">Recipes</button>
+    <button class="menu-btn">Search</button>
+  </aside>
+
+  <!-- Main -->
+  <main class="content">
+
+    <h1 class="title">Рецепти</h1>
+
+    <div class="slider">
+
+      <button class="arrow" id="prevBtn">←</button>
+
+      <div class="recipes-window">
+        <div class="recipes-track" id="recipesTrack">
+          <!-- Картки додаються через JS -->
+        </div>
+      </div>
+
+      <button class="arrow" id="nextBtn">→</button>
+
+    </div>
+
+  </main>
+
+</div>
+
+<script src="recipes.js"></script>
+</body>
+</html>
